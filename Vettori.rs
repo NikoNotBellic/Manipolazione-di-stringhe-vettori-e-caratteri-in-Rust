@@ -550,7 +550,7 @@ fn main()
         // Tronchiamo il vettore all'indice 5 creando così due slice che vengono immesi in _part1 e in _part2, che potranno essere modificati
         let (_part1, _part2) = _vec49.split_at_mut(5);
 
-        // Accediamo in modo siccuro all'elemento del primo slice
+        // Accediamo in modo sicuro all'elemento del primo slice
         if let Some(_h1) = _part1.get_mut(0)
         {
             *_h1 += 1;    // incrementiamo di uno il primo elemento del primo slice
@@ -560,7 +560,7 @@ fn main()
             println!("Elemento non trovato!!!");    
         }
         
-        // Accediamo in modo siccuro all'elemento del secondo slice
+        // Accediamo in modo sicuro all'elemento del secondo slice
         if let Some(_h2) = _part2.get_mut(0)
         {
             *_h2 += 1;    // incrementiamo di uno il primo elemento del secondo slice
