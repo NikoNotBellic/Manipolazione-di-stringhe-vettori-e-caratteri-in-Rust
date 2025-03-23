@@ -12,7 +12,7 @@ fn main()
 
     // BORROWING MUTABILE
     let mut z = 22;
-    let i = &mut z;     // i avrà il contenuto di z in prestito!, però qui il contenuto sarà modificato e tornera modificato in z
+    let i = &mut z;     // i avrà il contenuto di z in prestito, però qui il contenuto sarà modificato e tornera modificato in z
 
     *i+=1;
 
