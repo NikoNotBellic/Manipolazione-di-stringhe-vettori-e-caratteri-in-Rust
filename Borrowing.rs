@@ -1,4 +1,4 @@
-// questo programma spiega il borrowing
+// questo programma spiega il borrowing in breve
 fn main()
 {
     // BORROWING IMMUTABILE
