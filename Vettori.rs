@@ -35,7 +35,7 @@ fn main()
 
 
 
-    // Iteratore di un vettore
+    // Iteratore di un vettore, scorre tutto il vettore
     let _vec6: Vec<i32> = vec![1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
         // Usato per scorerre gli elementi di un vettore
